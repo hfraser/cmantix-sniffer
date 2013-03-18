@@ -1,14 +1,8 @@
 # C-Mantix Checkstyle
 The C-Mantix checkstyle is a [CodeSniffer](http://www.squizlabs.com/php-codesniffer) [standard](http://pear.php.net/manual/en/package.php.php-codesniffer.coding-standard-tutorial.php) it is used in order to standardize and validate all code that I manage. Any contributions on project that I manage are expected to follow this standard in order to be considered for integration.
 
-> __This is an ensemble of sniffs a special thanks to those who wrote some of these sniffs that I picked up along the way:__
-> * Greg Sherwood <gsherwood@squiz.net>
-> * Marc McIntyre <mmcintyre@squiz.net>
-> * Wim Godden <wim.godden@cu.be>
-> * Stefano Kowalke <blueduck@gmx.net> 
-
 ## Documentation
- * [The Coding Standard](#markdown-header-coding-standard)
+ * [The Coding Standard](#coding-standard)
  * [How to use CodeSniffer](http://pear.php.net/manual/en/package.php.php-codesniffer.usage.php)
  * [Implementing CodeSniffer to Eclipse](http://www.phpsrc.org/projects/pti-php-codesniffer/wiki/)
  * [Implementing CodeSniffer to NetBean](http://www.amaxus.com/cms-blog/coding-standards-netbeans-php-codesniffer)
@@ -444,6 +438,12 @@ namespace cmantix/Core/Database/Adapters;
 
 ### Ad-Hoc PHP files
 All Ad-hoc php files need to have the same docblock as a class if they do not contain a class.
+
+> __This is an ensemble of sniffs a special thanks to those who wrote some of these sniffs that I picked up along the way:__
+> * Greg Sherwood <gsherwood@squiz.net>
+> * Marc McIntyre <mmcintyre@squiz.net>
+> * Wim Godden <wim.godden@cu.be>
+> * Stefano Kowalke <blueduck@gmx.net> 
 
 > Copyright (c) 2012 Hans-Frederic Fraser
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
